@@ -7,8 +7,8 @@ router.get('/', function(req, res) {
   res.sendFile(path.join(__dirname, 'Stay.html'));
   })
 
-router.get('/guest', function(req, res) {
-    res.send("guest list");
+router.get('/room', function(req, res) {
+    res.send("房間資訊更新中");
   })
   
   module.exports = router;
