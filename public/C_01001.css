@@ -1,0 +1,82 @@
+/*For Guest_List.html*/
+body {
+    background-image:url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:華康粗圓體;
+}
+
+h1 {
+    color: maroon;
+    font-size: 48px;
+    letter-spacing: 2px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.list {
+    max-width: 960px;
+    margin: 30px auto;
+    padding: 20px 30px;
+    border-radius: 10px 120px 10px 10px;
+}
+
+tr {
+    list-style-type: none;
+    padding: 0;
+}
+
+td {
+    padding: 20px;
+    background: cornsilk;
+    font-size: 20px;
+    color: darkslategrey;
+    position: relative;
+    border-bottom: 1px solid grey;
+    height:22px;
+}
+
+table {
+    float: left;
+    width: 95%;
+    border:10px darkgrey;
+    border-radius:24px;
+}
+
+form input {
+    float: left;
+    width:28%;
+    margin: 0;
+    border: 0;
+    border-bottom: 1px solid grey;
+    margin: 0 1%;
+    padding: 8px;
+    display: block;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+form input:focus{
+    outline: none;
+    border-bottom: 3px solid grey;
+    padding-bottom: 8px;
+    transition: all ease 0.2s;
+}
+form :after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+button {
+    border: 0;
+    background: powderblue;
+    border-radius: 6px;
+    padding: 13px;
+    width: 8%;
+    font-family: 微軟正黑體;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    color: midnightblue;
+}
